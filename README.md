@@ -28,9 +28,7 @@ https://crowdin.com/project/colormc
 ![](/image/GIF.gif)  
 
 ## 支持平台
-- Linux(提供 ~~deb pkg~~ rpm)
-- ~~Windows~~
-- ~~macOs~~
+- Linux(自行构建 rpm)
 
 ~~注意：ARM64平台不能保证其兼容性  
 Windows ARM64 可以运行，渲染有问题~~  
@@ -38,7 +36,7 @@ Linux ARM64 在`xx派`上可以运行，运行缓慢
 ~~Mac ARM64 不能运行，可以运行x64版本~~  
 
 Linux由于发行版过于复杂，每个人的电脑兼容性都不一样，如果打不开可以需要自行解决
-Linux只提供Fedora版本，如有需要请看原版
+
 
 ## 安装 
 在Releases或者Actions里面下载构建好的压缩包/安装包  
@@ -79,11 +77,11 @@ chmod a+x ./build/build-linux.sh
 
 
 打包rpm镜像  
-**需要在Fedora系统中操作**
+**在Fedora系统中操作**
 ```bash
-chmod a+x ./build/build-rpm.sh
+chmod a+x ./build/build-rpm-fedora.sh
 
-./build/build-rpm.sh
+./build/build-rpm-fedora.sh
 ```
 
 

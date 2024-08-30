@@ -1,3 +1,13 @@
+# ColorMC Fedora Edition
+
+是这样的：
+
+
+
+
+---
+以下是原始README（已小修小改）
+
 # ColorMC 一个全平台Minecraft PC启动器
 
 交流QQ群：571239090
